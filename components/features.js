@@ -59,7 +59,7 @@ export default function Feature() {
                             </li>
                             <li className="d-flex align-items-center">
                                 <svg className="bi me-2" width="1em" height="1em"><use xlinkHref="#calendar3" /></svg>
-                                <small>5d</small>
+                                <small>9d</small>
                             </li>
                         </ul>
                     </div>
