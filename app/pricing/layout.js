@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react"
+
 export default function PricingLayout({ children }) {
     return (
       <html lang="en">
@@ -38,6 +40,7 @@ export default function PricingLayout({ children }) {
         </head>
         <body>
           {children}
+          <Analytics />
         </body>
       </html>
     );
