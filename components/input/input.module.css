@@ -1,0 +1,104 @@
+.wrapper{
+    display:flex;
+    justify-content: center;
+    background-color: #222831;
+    height:90vh;
+    align-items: center;
+}
+
+.container{
+    width:85%;
+    height:80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:#393E46;
+    border-radius: 25px;
+    padding:20px;
+}
+.input input{
+    width: 80%;
+    height:45px;
+    border-radius: 25px;
+    text-align: center;
+    border:3px solid #7109F5;
+    margin-bottom: 10px;
+    background-color: #EEEEEE;
+    transition: all 0.15s ease-in-out;
+}
+.input button{
+    background-color: #7109F5;
+    color:#EEEEEE;
+    border:none;
+    width:80%;
+    height:45px;
+    border:2px solid #EEEEEE;
+    border-radius: 25px;
+    transition: all 0.15s ease-in-out;
+}
+.input button:hover{
+    background-color: #EEEEEE;
+    color:#7109F5;
+    cursor: pointer;
+}
+.input{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    background-color: #222831;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensures the image doesn't overflow */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the container */
+    border-radius: inherit; /* Matches the container's border radius */
+}
+
+
+.container select{
+    width: 80%;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #7109F5;
+    color:#EEEEEE;
+    border:2px solid #EEEEEE;
+    height:45px;
+    border-radius: 25px;
+    transition: all 0.15s ease-in-out;
+}
+.container select:active, .container select:focus, .container select:hover{
+    background-color: #EEEEEE;
+    color:#7109F5;
+    cursor: pointer;
+}
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    --_c:no-repeat radial-gradient(farthest-side,#7109F5 92%,#0000);
+    background: 
+      var(--_c) top,
+      var(--_c) left,
+      var(--_c) right,
+      var(--_c) bottom;
+    background-size: 12px 12px;
+    animation: l7 1s infinite;
+  }
+  @keyframes l7 {to{transform: rotate(.5turn)}}
+
